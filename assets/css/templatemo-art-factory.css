@@ -298,13 +298,12 @@ div.logo {
   height: 55px;
   width: 154px;
   margin-top: 20px;
-  background-image: url("../images/sc-whitelogo.png");
+  background-image: url("../images/mm-whitelogo.png");
   background-size: 150px;
   background-position: 77% 43%;
   background-repeat: no-repeat;
   transition: all 0.3s;
 }
-
 
 .background-header {
   background-color: #fff;
@@ -321,7 +320,7 @@ div.logo {
 }
 
 .background-header .logo {
-  background-image: url("../images/sc-darklogo.png");
+  background-image: url("../images/mm-colorlogo.png");
   margin-top: 10px;
 }
 
@@ -441,7 +440,7 @@ div.logo {
   visibility: hidden;
   z-index: -1;
   transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
-  z-index 0s linear 0.01s;
+    z-index 0s linear 0.01s;
 }
 
 .header-area .main-nav .nav li.submenu ul li {
@@ -856,26 +855,28 @@ about
 ---------------------------------------------
 */
 
-#about, #companies-helped {
+#about,
+#companies-helped {
   padding: 120px 0px;
   border-bottom: 1px solid #eee;
 }
 
-
 @media (max-width: 765px) {
-  #about, #companies-helped {
+  #about,
+  #companies-helped {
     padding: 20px 0px 120px 0px;
   }
 }
 
-#about .right-text, #companies-helped .right-text {
+#about .right-text,
+#companies-helped .right-text {
   align-self: center;
 }
 
-#about .right-text p, #companies-helped .right-text p {
+#about .right-text p,
+#companies-helped .right-text p {
   margin-bottom: 40px;
 }
-
 
 #about h5,
 #companies-helped h5 {
@@ -895,7 +896,6 @@ about
   letter-spacing: 0.5px;
 }
 
-
 /*
 ---------------------------------------------
 services
@@ -906,41 +906,41 @@ services
   padding: 120px 0px 90px 0px;
   background: rgba(0, 136, 232, 1);
   background: -moz-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -webkit-gradient(
-  left top,
-  right bottom,
-  color-stop(0%, rgba(0, 136, 232, 1)),
-  color-stop(0%, rgba(0, 182, 198, 1)),
-  color-stop(100%, rgba(0, 136, 232, 1))
+    left top,
+    right bottom,
+    color-stop(0%, rgba(0, 136, 232, 1)),
+    color-stop(0%, rgba(0, 182, 198, 1)),
+    color-stop(100%, rgba(0, 136, 232, 1))
   );
   background: -webkit-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -o-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -ms-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: linear-gradient(
-  135deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    135deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
@@ -1222,41 +1222,41 @@ contact
   padding: 100px;
   background: rgba(0, 136, 232, 1);
   background: -moz-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -webkit-gradient(
-  left top,
-  right bottom,
-  color-stop(0%, rgba(0, 136, 232, 1)),
-  color-stop(0%, rgba(0, 182, 198, 1)),
-  color-stop(100%, rgba(0, 136, 232, 1))
+    left top,
+    right bottom,
+    color-stop(0%, rgba(0, 136, 232, 1)),
+    color-stop(0%, rgba(0, 182, 198, 1)),
+    color-stop(100%, rgba(0, 136, 232, 1))
   );
   background: -webkit-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -o-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: -ms-linear-gradient(
-  -45deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   background: linear-gradient(
-  135deg,
-  rgba(0, 136, 232, 1) 0%,
-  rgba(0, 182, 198, 1) 0%,
-  rgba(0, 136, 232, 1) 100%
+    135deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 );
 }
@@ -1454,7 +1454,6 @@ preloader
 }
 
 /*added Wuyan styles here*/
-
 
 .service-item .company-title {
   font-size: 15px;
